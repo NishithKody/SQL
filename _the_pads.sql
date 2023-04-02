@@ -10,5 +10,4 @@ union
 select concat('There are a total of ',count(occupation),' ',lower(occupation),'s.' )
 from OCCUPATIONS
 group by occupation
-order by n
-;
+order by n;
